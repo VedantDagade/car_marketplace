@@ -33,3 +33,12 @@ npx shadcn@latest add accordion alert badge calendar card checkbox dialog dropdo
 ```
 npx shadcn-ui@latest add --all
 ```
+
+
+## IMP Concepts-:
+ - {children} inside layout.js is load the page.js file above this header and below this is footer
+ - header.jsx is created under components/ui and import into the layout.js
+
+
+
+## User Authentication (Clerk)-:
