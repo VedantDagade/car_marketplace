@@ -2,13 +2,14 @@ import Link from "next/link";
 import Image from "next/image";
 
 import React from "react";
-import { ArrowLeft, CarFront, Heart, Layout, User } from "lucide-react";
+import { ArrowLeft, CarFront, Heart, Layout, User } from "lucide-react"; //icons 
 
+// Authentication components from Clerk 
 import { SignedIn, SignedOut, SignInButton, UserButton } from "@clerk/nextjs";
 import { Button } from "@/components/ui/button";
 
 const Header = async ({ isAdminPage = false }) => {
-  const isAdmin = true;
+  const isAdmin = false;
 
   return (
     <header className="fixed top-0 w-full bg-white/80 backdrop-blur-md z-50 border-b">
@@ -63,12 +64,20 @@ const Header = async ({ isAdminPage = false }) => {
           )}
           <SignedOut>
             <SignInButton forceRedirectUrl="/">
-             <Button variant="outline">Login</Button>
+              <Button variant="outline">Login</Button>
             </SignInButton>
           </SignedOut>
 
           <SignedIn>
-            <UserButton />
+            <UserButton
+              afterSignOutUrl="/"
+              appearance={{
+                elements: {
+                  avatarBox: "w-10 h-10",
+                },
+              }}
+            />
+            
           </SignedIn>
         </div>
       </nav>

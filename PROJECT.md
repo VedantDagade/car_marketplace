@@ -72,7 +72,7 @@ CLERK_SECRET_KEY=sk_test_EtDxYGAv3a5DCo8q6PCRkUmNPOwwyAm5rap0P9oPw8
   -
 
 - 4 Add <ClerkProvider>Entire code<ClerkProvider/> in the layout.js file
-  and at top add
+  and at top add 
 
 ```
 import {
@@ -104,4 +104,46 @@ export default clerkMiddleware(async (auth, req) => {
   });
 
 ```
+
+
+
+
+---
+
+## Setup a BackEnd -: (SupaBase) For DataBase
+ - We use postgres database supabase.
+ - Prisma PostGres sql database. ORM
+ - Use Supabase storage for car images (public)
+ - connect => server.ts files => copy code => paset in => create file inside lib (supabase.js).
+ - npm install @supabase/supabase-js
+ - npm install @supabase/ssr
+
+
+
+
+---
+
+
+## Prevent WebSite from Common Attacks-: (Arcjet)
+ - Security for application
+ - Avoid Rate limiting
+ - Prevent Website from common attack
+ - Email Validation
+ - Data redaction 
+ - Bot detection
+
+### Create a new site and add api key at .env file
+
+
+---
+
+## Creating a waitlist form if we add to new feature in web
+ - get template from create.
+ - this is used to create email notification when it lauch
+ - FAQ Section 
+ - This is also very imp part and web looks very good 
+ - like this [text](https://vehiql-vedant.created.app)
+ 
+ - for integrate in pur app click embed project and copy it link in crete waitlist folder inside app 
+
 
