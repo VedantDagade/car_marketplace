@@ -27,4 +27,5 @@ export default clerkMiddleware(async (auth, req) => {
       "/(api|trpc)(.*)",
       "/((?!_next|.*\\..*).*)",
     ],
+    publicRoutes: ["/sign-in", "/sign-up"],
   };
