@@ -135,6 +135,8 @@ export default function Home() {
         </div>
       </section>
 
+
+
       <section className="py-12 bg-gray-50 px-4">
         <div className="container mx-auto px-4">
           <div className="flex justify-between items-center mb-8 ">

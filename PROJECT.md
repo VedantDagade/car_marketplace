@@ -147,3 +147,16 @@ export default clerkMiddleware(async (auth, req) => {
  - for integrate in pur app click embed project and copy it link in crete waitlist folder inside app 
 
 
+
+---
+
+## Landing Page-:
+
+
+
+---
+
+##
+
+
+
