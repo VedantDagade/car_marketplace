@@ -160,5 +160,9 @@ export default clerkMiddleware(async (auth, req) => {
  - install library
  ```npm i react drop-zone```
 
+ - use React-Dropzone
+
+ 
+
 
 
