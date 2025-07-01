@@ -156,7 +156,9 @@ export default clerkMiddleware(async (auth, req) => {
 
 ---
 
-##
+## Drag and drop search ui
+ - install library
+ ```npm i react drop-zone```
 
 
 

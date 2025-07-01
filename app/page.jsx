@@ -135,8 +135,6 @@ export default function Home() {
         </div>
       </section>
 
-
-
       <section className="py-12 bg-gray-50 px-4">
         <div className="container mx-auto px-4">
           <div className="flex justify-between items-center mb-8 ">
@@ -201,7 +199,9 @@ export default function Home() {
 
       <section className="py-16 dotted-background text-white">
         <div className="container mx-auto px-4 text-center">
-          <h2 className="text-3xl font-bold mb-4">Ready to Find Your Dream Car?</h2>
+          <h2 className="text-3xl font-bold mb-4">
+            Ready to Find Your Dream Car?
+          </h2>
           <p className="text-xl text-blue-100 mb-8 max-w-2xl mx-auto">
             Join Thousands of satisfied customers who found their perfect
             vehicle through our platform.
@@ -212,8 +212,7 @@ export default function Home() {
             </Button>
             <SignedOut>
               <Button size="lg" asChild>
-                <Link href="/sign-up">Sign Up Now
-                </Link>
+                <Link href="/sign-up">Sign Up Now</Link>
               </Button>
             </SignedOut>
           </div>
